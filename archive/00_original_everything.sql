@@ -99,7 +99,7 @@ INSERT INTO Employees (emp_id, emp_name, dept_id, salary, manager_id) VALUES
 
 /* Using a subquery, find the highest-paid employee(s)
 */
-use practice_sql;
+use advanced_sql_practice;
 select
 	emp_name,
     salary
@@ -385,7 +385,7 @@ from departments
 /*
 Keep employees whose department exists in Departments table.
 */
-use practice_sql;
+use advanced_sql_practice;
 select emp_name
 from employees
 where exists (select dept_id from departments where departments.dept_id = employees.dept_id);
@@ -626,7 +626,7 @@ for employees whose salary
 is greater than the average salary of their department,
 using window functions (not subqueries for avg).
 */
-use practice_sql;
+use advanced_sql_practice;
 
 select emp_name, salary, dept_id, avg(salary) over(partition by dept_id)  as average_salary
 from employees;
@@ -996,7 +996,7 @@ from
 from employees)
 as t; 
 
-use practice_sql;
+use advanced_sql_practice;
 /* Assign row numbers to employees ordered by salary ascending.
 Output:
 emp_name
@@ -1074,7 +1074,7 @@ No window functions inside WHERE
 All filtering must happen in the correct place
 */
 
-use practice_sql;
+use advanced_sql_practice;
 
 select  emp_name, dept_id, salary, avg_salary, row_number() over(partition by dept_id order by salary desc) as row_num_above_avg
 from(
@@ -1386,14 +1386,14 @@ where employee_salary = 2;
 For each department, return all employees whose salary falls in the top 3 salary groups of that department.
 (If there are ties within the top 3 groups, include them as well.)
 */
-use practice_sql;
+use advanced_sql_practice;
 
 select emp_name, dept_id, salary, dense_rank_salary
 from(select emp_name, dept_id, salary, dense_rank() over(partition by dept_id order by salary desc) as dense_rank_salary
 from employees) as e
 where e.dense_rank_salary <= 3
 
-use practice_sql;
+use advanced_sql_practice;
 
 /* CTE*/
 /* Practice Question 1
@@ -3485,17 +3485,17 @@ on d.dept_id = c.dept_id
 left join no_of_between_salary f
 on d.dept_id = f.dept_id;
 
-USE practice_sql;
+USE advanced_sql_practice;
 SHOW COLUMNS FROM Employees;
 
 
 
 
-/* MySQL (practice_sql) — add Date/Time practice columns + populate varied data
+/* MySQL (advanced_sql_practice) — add Date/Time practice columns + populate varied data
    Covers data variety needed for: year/month/day/weekday extraction, month-end, “truncate”, add/diff,
    casting/formatting, and date-validation practice using date_text strings. */
 
-USE practice_sql;
+USE advanced_sql_practice;
 
 -- 1) Add columns
 ALTER TABLE Employees

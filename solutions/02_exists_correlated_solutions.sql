@@ -17,7 +17,7 @@ from departments
 /*
 Keep employees whose department exists in Departments table.
 */
-use practice_sql;
+use advanced_sql_practice;
 select emp_name
 from employees
 where exists (select dept_id from departments where departments.dept_id = employees.dept_id);

@@ -1,13 +1,13 @@
 /* =========================================================
    Advanced SQL Practice - Database Setup (MySQL)
-   Database: practice_sql
+   Database: advanced_sql_practice
    Purpose: create tables + load deterministic data
    NOTE: This script is designed for Docker init execution.
    ========================================================= */
 
 -- Ensure correct database context
-CREATE DATABASE IF NOT EXISTS practice_sql;
-USE practice_sql;
+CREATE DATABASE IF NOT EXISTS advanced_sql_practice;
+USE advanced_sql_practice;
 
 -- ---------------------------------------------------------
 -- 1) Tables

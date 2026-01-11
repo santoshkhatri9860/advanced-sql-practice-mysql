@@ -54,7 +54,7 @@ for employees whose salary
 is greater than the average salary of their department,
 using window functions (not subqueries for avg).
 */
-use practice_sql;
+use advanced_sql_practice;
 
 select emp_name, salary, dept_id, avg(salary) over(partition by dept_id)  as average_salary
 from employees;

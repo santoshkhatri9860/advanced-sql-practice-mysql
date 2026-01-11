@@ -157,4 +157,4 @@ from
 from employees)
 as t; 
 
-use practice_sql;
+use advanced_sql_practice;

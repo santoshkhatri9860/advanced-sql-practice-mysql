@@ -1,6 +1,6 @@
 /* Using a subquery, find the highest-paid employee(s)
 */
-use practice_sql;
+use advanced_sql_practice;
 select
 	emp_name,
     salary

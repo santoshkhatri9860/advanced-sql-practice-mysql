@@ -75,7 +75,7 @@ No window functions inside WHERE
 All filtering must happen in the correct place
 */
 
-use practice_sql;
+use advanced_sql_practice;
 
 select  emp_name, dept_id, salary, avg_salary, row_number() over(partition by dept_id order by salary desc) as row_num_above_avg
 from(

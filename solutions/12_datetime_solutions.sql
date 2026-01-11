@@ -1,8 +1,8 @@
-/* MySQL (practice_sql) — add Date/Time practice columns + populate varied data
+/* MySQL (advanced_sql_practice) — add Date/Time practice columns + populate varied data
    Covers data variety needed for: year/month/day/weekday extraction, month-end, “truncate”, add/diff,
    casting/formatting, and date-validation practice using date_text strings. */
 
-USE practice_sql;
+USE advanced_sql_practice;
 
 -- 1) Add columns
 ALTER TABLE Employees

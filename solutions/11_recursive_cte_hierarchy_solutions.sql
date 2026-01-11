@@ -1346,7 +1346,7 @@ on d.dept_id = c.dept_id
 left join no_of_between_salary f
 on d.dept_id = f.dept_id;
 
-USE practice_sql;
+USE advanced_sql_practice;
 SHOW COLUMNS FROM Employees;
 
 

@@ -122,7 +122,7 @@ where employee_salary = 2;
 For each department, return all employees whose salary falls in the top 3 salary groups of that department.
 (If there are ties within the top 3 groups, include them as well.)
 */
-use practice_sql;
+use advanced_sql_practice;
 
 select emp_name, dept_id, salary, dense_rank_salary
 from(select emp_name, dept_id, salary, dense_rank() over(partition by dept_id order by salary desc) as dense_rank_salary
