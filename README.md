@@ -1,20 +1,27 @@
-# Advanced SQL workbook: subqueries, window functions, CTEs, recursive CTEs, date & time, and analytics-style patterns.
+# Advanced SQL Practice
 
-A structured, GitHub-ready advanced SQL practice project focused on:
-- Subqueries + EXISTS
+A practice-first SQL workbook: subqueries, correlated subqueries, window functions, CTEs, recursive CTEs, and date/time patterns — with clean prompts and separate solutions.
+
+## What you’ll practice
+- Subqueries + `EXISTS`
 - Correlated subqueries
 - Window functions (aggregate, ranking, frames)
-- LAG / LEAD
+- `LAG()` / `LEAD()`
 - CTEs (non-recursive + multi-CTE)
 - Recursive CTEs (numbers + employee hierarchy)
 - Date/Time functions
 
-## How this repo is organized
-- `archive/` → original work preserved **without any changes**
-- `db/` → database setup + seed scripts
-- `practice/` → practice questions + solutions organized by topic
-- `run/` → one-command scripts to build/run
-- `docs/` → learning path + documentation
+## Repo structure
+- `exercises/` → prompts-only (try first)
+- `solutions/` → complete solutions (reference after)
+- `db/` → local DB setup + seed scripts
+- `docker-compose.yml` → optional local MySQL setup
+- `docs/` → how to use + roadmap + style guide
+- `archive/` → original work preserved **without changes**
+
+## How to use
+Start here: `docs/HOW_TO_USE.md`  
+Exercise index: `exercises/README.md`
 
 ## Status
-Currently organizing and converting the original script into a clean practice workbook (no omissions).
+Actively organizing the original work into a clean, sequenced workbook (no omissions).
