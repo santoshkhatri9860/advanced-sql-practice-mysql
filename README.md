@@ -2,6 +2,10 @@
 
 A practice-first SQL workbook: subqueries, correlated subqueries, window functions, CTEs, recursive CTEs, and date/time patterns — with clean prompts and separate solutions.
 
+## Quickstart
+Start here: `docs/QUICKSTART.md`  
+Exercise index: `exercises/README.md`
+
 ## What you’ll practice
 - Subqueries + `EXISTS`
 - Correlated subqueries
