@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://santoshkhatri9860.github.io/advanced-sql-practice-mysql/sitemap.xml
