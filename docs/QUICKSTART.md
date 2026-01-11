@@ -1,14 +1,16 @@
 # Quickstart (MySQL)
 
-This repo is a practice-first SQL workbook. You can use it in 2 ways:
-1) **Use Docker** (recommended) — easiest setup
-2) **Use your own MySQL** (local install)
+This repo is a practice-first SQL workbook (prompts + solutions).  
+You can run it in two ways:
+
+1) **Local MySQL (recommended)** — fastest if you already have MySQL installed  
+2) **Docker** — optional if you have Docker installed
 
 ---
 
-## Option 1: Docker (recommended)
+## Option 1 (Recommended): Local MySQL (macOS socket)
 
-### 1) Start MySQL
+### 1) Confirm MySQL is running (socket)
 ```bash
-docker compose up -d
+ls -l /tmp/mysql.sock
 
