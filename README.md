@@ -1,4 +1,4 @@
-# Advanced SQL Practice (MySQL 8)
+# Advanced SQL workbook: subqueries, window functions, CTEs, recursive CTEs, date & time, and analytics-style patterns.
 
 A structured, GitHub-ready advanced SQL practice project focused on:
 - Subqueries + EXISTS
