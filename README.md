@@ -1,16 +1,14 @@
-# Advanced SQL Practice (MySQL 8)
+# Advanced SQL Practice
 
-A practice-first SQL workbook with **1,400+ topic-wise questions**—from 
-fundamentals to advanced patterns—built for **job prep, interviews, and 
-real-world SQL fluency**.
+**Live site (GitHub Pages):** https://santoshkhatri9860.github.io/advanced-sql-practice-mysql/  
+**Exercise Index:** https://github.com/santoshkhatri9860/advanced-sql-practice-mysql/blob/main/exercises/README.md  
+**Quickstart (setup + smoke test):** https://github.com/santoshkhatri9860/advanced-sql-practice-mysql/blob/main/docs/QUICKSTART.md  
 
-Most sites explain advanced SQL concepts, but don’t provide enough 
-**structured, high-volume practice**. This repo is designed to fix that: 
-**prompts first**, then **separate solutions** so you can practice properly and 
-verify fast.
+A practice-first SQL workbook with **1,400+ topic-wise questions** — from fundamentals to advanced patterns — built for **job prep, interviews, and real-world SQL fluency**.
 
-**Best for:** learners • job seekers • interview prep • recruiters assessing 
-SQL readiness
+Most sites explain advanced SQL concepts, but don’t provide enough **structured, high-volume practice**. This repo is designed to fix that: **prompts first**, then **separate solutions** so you can practice properly and verify fast.
+
+**Best for:** learners • job seekers • interview prep • anyone leveling up SQL
 
 ---
 
@@ -35,10 +33,10 @@ SQL readiness
 
 ---
 
-## Quick start (recommended)
+## Quick start
 1) Read: `docs/HOW_TO_USE.md`  
 2) Start practicing: `exercises/README.md`  
-3) Verify with: `solutions/`
+3) Check your work: `solutions/`  
 
 > Want a local database with sample data? See `db/` (Docker is optional).
 
@@ -64,13 +62,10 @@ SQL readiness
 ---
 
 ## Notes
-- MySQL 8+ recommended (for CTEs + window functions).
-- SQL often has multiple correct answers—solutions are reference 
-implementations.
+- **MySQL 8+ recommended** (for CTEs + window functions).
+- SQL often has multiple correct answers — solutions are reference implementations.
 
 ---
 
 ## Support
-If this repo helps you practice SQL, consider starring it ⭐ — it helps more 
-learners discover it.
-
+If this repo helps you practice SQL, consider starring it ⭐ — it helps more learners discover it.
