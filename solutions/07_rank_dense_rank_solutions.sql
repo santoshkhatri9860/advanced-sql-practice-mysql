@@ -127,7 +127,5 @@ use practice_sql;
 select emp_name, dept_id, salary, dense_rank_salary
 from(select emp_name, dept_id, salary, dense_rank() over(partition by dept_id order by salary desc) as dense_rank_salary
 from employees) as e
-where e.dense_rank_salary <= 3
-
-use practice_sql;
+where e.dense_rank_salary <= 3;
 
